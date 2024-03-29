@@ -55,14 +55,37 @@ body {
   justify-content: right;
   align-items: center;
   background-color: black;
-  width: 275px;
+  width: 300px;
   height: 325px;
   border-radius: 20px;
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .points {
   font-weight: 700;
   font-size: 175px;
   color: lightpink;
+}
+
+.increase-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.increase-btn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  background-color: #1b1a55;
+  border: rgb(167, 167, 167) solid 5px;
+  color: rgb(167, 167, 167);
+  font-size: 20px;
+  border-radius: 15px;
 }
