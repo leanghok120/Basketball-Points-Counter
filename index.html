@@ -20,24 +20,37 @@
       </section>
       <section class="points-section">
         <div class="points-container">
-          <h2 class="points">18</h2>
+          <h2 class="points" id="home">0</h2>
         </div>
         <div class="points-container">
-          <h2 class="points">16</h2>
+          <h2 class="points" id="guest">0</h2>
         </div>
       </section>
       <section class="increase-container">
         <div class="increase-btn-container">
-          <button class="btn">+1</button>
-          <button class="btn">+2</button>
-          <button class="btn">+3</button>
+          <button class="btn" id="+1" onclick="increasePoints(1, 'home')">
+            +1
+          </button>
+          <button class="btn" id="+2" onclick="increasePoints(2, 'home')">
+            +2
+          </button>
+          <button class="btn" id="+3" onclick="increasePoints(3, 'home')">
+            +3
+          </button>
         </div>
         <div class="increase-btn-container">
-          <button class="btn">+1</button>
-          <button class="btn">+2</button>
-          <button class="btn">+3</button>
+          <button class="btn" id="+4" onclick="increasePoints(1, 'guest')">
+            +1
+          </button>
+          <button class="btn" id="+5" onclick="increasePoints(2, 'guest')">
+            +2
+          </button>
+          <button class="btn" id="+6" onclick="increasePoints(3, 'guest')">
+            +3
+          </button>
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
