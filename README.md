@@ -11,7 +11,6 @@ This project is a simple basketball points counter application built using HTML,
 - Simple Interface: The application offers a straightforward user interface designed for ease of use.
 - Increment Scores: Users can increment scores for each team with just a click of a button.
 - Dynamic Score Display: The current scores for each team are dynamically updated and displayed on the screen.
-- Responsive Design: The application is built with responsiveness in mind, ensuring it works well across various devices and screen sizes.
 
 ## Usage
 
