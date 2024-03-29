@@ -17,6 +17,12 @@ This project is a simple basketball points counter application built using HTML,
 Upon opening the application in a web browser, you'll see a simple interface with two score counters, one for each team.
 Click the "+" button to increment the score for a team.
 
+## TODO
+
+- Responsiveness(fully unresponsive currently)
+- Local Storage(make the points the same after refreshing instead of going to 0)
+- Reset points button
+
 ## Contributing
 
 Contributions to the project are welcome. If you'd like to suggest new features, report bugs, or contribute code improvements, feel free to open an issue or submit a pull request on the GitHub repository.
